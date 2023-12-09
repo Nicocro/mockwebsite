@@ -1,0 +1,84 @@
+body {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
+    margin-left:  5%; 
+    margin-right: 5%;
+}
+
+/* ----- header ----- */
+
+header > img {
+    display: block;
+    align-self: center;
+    width: 40%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    color: antiquewhite;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1em;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 1em; 
+}
+
+/* ----- main ----- */
+
+.home {
+    display: block;
+    align-self: center;
+}
+
+.col {
+    display: inline-flex;
+    padding: 1em;
+}
+
+article {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* ----- footer ----- */
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+.footer_img {
+    display: inline-flex;
+    width: 40%;
+
+}
